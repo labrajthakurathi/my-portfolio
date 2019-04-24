@@ -65,6 +65,9 @@ export default function Header() {
           </ul>
         </div>
       </nav>
+      <div className="logo-wrapper">
+        <img src="mainlogo.png" className="img-fluid logo" alt="" />
+      </div>
     </div>
   );
 }
