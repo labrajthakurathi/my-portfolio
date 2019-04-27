@@ -1,26 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Header() {
+  const [display, setDisplay] = useState(null);
+  let hideMenu = () => {
+    setDisplay("none");
+  };
   return (
     <div className="">
       <nav role="navigation">
         <div id="menuToggle">
-          <input type="checkbox" />
+          <input type="checkbox" onMouseEnter={() => setDisplay(null)} />
 
           <span />
           <span />
           <span />
 
-          <ul id="menu">
-            <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
-                <i className="fas fa-poll-h " />
+          <ul
+            id="menu"
+            onClick={hideMenu}
+            style={{ display: display ? "none" : null }}
+          >
+            <a href="#new">
+              <div className="items">
+                <div className="text-center text-dark mx-auto bg-warning  icon-1">
+                  <i className="fas fa-poll-h " />
+                </div>
+
+                <li>
+                  <b>Resume</b>
+                </li>
               </div>
-
-              <a href="#">
-                <li> Resume</li>
-              </a>
-            </div>
+            </a>
             <div className="items">
               <div className="text-center text-dark mx-auto bg-warning  icon-1">
                 <i className="fas fa-briefcase" />
