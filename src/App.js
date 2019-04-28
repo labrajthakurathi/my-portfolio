@@ -11,6 +11,7 @@ class App extends Component {
           <title>
             {" "}
             Lab raj Thakurathi portfolio lalit thakurathi portfolio labraj
+            software engineer front-end-developer
           </title>
         </Helmet>
         <Header />
