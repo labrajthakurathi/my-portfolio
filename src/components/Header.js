@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 
 export default function Header() {
-  const [display, setDisplay] = useState(null);
+ const [display, setDisplay] = useState(false);
   let hideMenu = () => {
-    setDisplay("none");
+    setDisplay(!display);
+  };
+
+  const initialDisplay = {
+    transform: "translate(-100%, 0)"
+  };
+  const onClickDisplay = {
+    transform: "none"
   };
   return (
     <div className="">
       <nav role="navigation">
         <div id="menuToggle">
-          <input type="checkbox" onMouseEnter={() => setDisplay(null)} />
+          <input type="checkbox" onClick={() => setDisplay(!display)}  />
 
           <span />
           <span />
@@ -17,8 +24,8 @@ export default function Header() {
 
           <ul
             id="menu"
-            onClick={hideMenu}
-            style={{ display: display ? "none" : null }}
+             onClick={hideMenu}
+            style={display ? onClickDisplay : initialDisplay}
           >
             <a href="#new">
               <div className="items">
