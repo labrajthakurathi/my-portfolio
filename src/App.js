@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
+import { Helmet } from "react-helmet";
 
 class App extends Component {
   render() {
     return (
       <div className="App ">
+        <Helmet>
+          <title>
+            {" "}
+            Lab raj Thakurathi portfolio lalit thakurathi portfolio labraj
+          </title>
+        </Helmet>
         <Header />
         <Landing />
         <div className="p-5 text-center">
