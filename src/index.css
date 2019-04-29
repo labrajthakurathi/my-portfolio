@@ -14,6 +14,26 @@ a {
 
   transition: color 0.3s ease;
 }
+.icon-wrapper {
+  border-radius: 85px;
+  width: 85px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #cdcdcd;
+}
+.icon-row {
+  padding: 0 15% 0 15%;
+}
+section {
+  height: auto;
+  width: 100%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  border: 1px solid;
+}
+
 .logo {
   width: auto;
   position: absolute;
@@ -189,6 +209,23 @@ h2 {
   opacity: 0.7;
 
   top: 0;
+}
+.skills-overlay {
+  background-image: linear-gradient(
+    to right top,
+    #060607,
+    #0c0f11,
+    #101616,
+    #161c18,
+    #1f2019
+  );
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 0;
+
+  left: 0;
+  opacity: 0.7;
 }
 
 .overlay {

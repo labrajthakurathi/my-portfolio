@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Header() {
- const [display, setDisplay] = useState(false);
+  const [display, setDisplay] = useState(false);
   let hideMenu = () => {
     setDisplay(!display);
   };
@@ -16,7 +16,7 @@ export default function Header() {
     <div className="">
       <nav role="navigation">
         <div id="menuToggle">
-          <input type="checkbox" onClick={() => setDisplay(!display)}  />
+          <input type="checkbox" onClick={() => setDisplay(!display)} />
 
           <span />
           <span />
@@ -24,7 +24,7 @@ export default function Header() {
 
           <ul
             id="menu"
-             onClick={hideMenu}
+            onClick={hideMenu}
             style={display ? onClickDisplay : initialDisplay}
           >
             <a href="#new">
@@ -50,7 +50,7 @@ export default function Header() {
               <div className="text-center text-dark mx-auto bg-warning  icon-1">
                 <i className="far fa-lightbulb" />
               </div>
-              <a href="#">
+              <a href="#skills">
                 <li className="ml-2">Skills</li>
               </a>
             </div>
