@@ -42,7 +42,7 @@ export default function Header() {
               <div className="text-center text-dark mx-auto bg-warning  icon-1">
                 <i className="fas fa-briefcase" />
               </div>
-              <a href="#">
+              <a href="#projects">
                 <li>Projects</li>
               </a>
             </div>

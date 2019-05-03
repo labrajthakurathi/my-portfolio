@@ -27,6 +27,7 @@ class App extends Component {
           <Skills />
           <Projects />
           <Contact />
+          <h2 className="text-center">Site Under construction</h2>
         </div>
       </ParallaxProvider>
     );

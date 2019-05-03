@@ -39,9 +39,9 @@ export default function Landing() {
                 PASSION.
               </small>
             </h2>
-            <button className="btn btn-outline-light py-2 px-5">
+            <a className="btn btn-outline-light py-2 px-5" href="#projects">
               See My Work
-            </button>
+            </a>
           </Parallax>
         </div>
       </div>

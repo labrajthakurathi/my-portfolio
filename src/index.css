@@ -58,7 +58,7 @@ a {
 }
 .logo-wrapper {
   width: 60%;
-  position: fixed;
+  position: absolute;
   margin: 0;
   top: 0;
   padding: 15px;
