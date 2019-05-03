@@ -4,7 +4,7 @@ import { Parallax } from "react-scroll-parallax";
 
 export default function Landing() {
   return (
-    <div className="landing">
+    <div className="landing container-fluid">
       <Particles
         params={{
           particles: {

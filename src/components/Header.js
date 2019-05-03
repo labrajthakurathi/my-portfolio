@@ -14,7 +14,7 @@ export default function Header() {
   };
   return (
     <div className="">
-      <nav role="navigation">
+      <nav role="navigation ">
         <div id="menuToggle">
           <input type="checkbox" onClick={() => setDisplay(!display)} />
 
@@ -67,7 +67,10 @@ export default function Header() {
               <div className="text-center text-dark mx-auto bg-warning  icon-1">
                 <i className="fab fa-linkedin" />
               </div>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/lab-raj-thakurathi-845679167/"
+                target="_blank"
+              >
                 <li>LinkedIn</li>
               </a>
             </div>
@@ -75,7 +78,7 @@ export default function Header() {
               <div className="text-center text-dark mx-auto bg-warning  icon-1">
                 <i className="fab fa-github" />
               </div>
-              <a href="#" target="_blank">
+              <a href="https://github.com/" target="_blank">
                 <li>GitHub</li>
               </a>
             </div>

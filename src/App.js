@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import Skills from "./components/skills/skills";
+import Contact from "./components/ contact/contact";
+import Projects from "./components/projects/projects";
+import About from "./components/about/about.js";
 import { Helmet } from "react-helmet";
 import { ParallaxProvider } from "react-scroll-parallax";
 
@@ -19,8 +22,11 @@ class App extends Component {
           </Helmet>
           <Header />
           <Landing />
+          <About />
 
           <Skills />
+          <Projects />
+          <Contact />
         </div>
       </ParallaxProvider>
     );

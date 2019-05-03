@@ -1,5 +1,6 @@
 import React from "react";
 import pic2 from "./jquery.png";
+
 import { ProgressBar } from "react-bootstrap";
 
 export default function Skills() {
@@ -16,7 +17,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-react text-warning  fa-4x" />
+                    <i class="fab fa-react icon-color  fa-4x" />
                   </div>
 
                   <div className="ml-3">
@@ -27,7 +28,7 @@ export default function Skills() {
 
                 <div className="col-8 my-auto">
                   {" "}
-                  <ProgressBar variant="info" animated now={85} />
+                  <ProgressBar variant="secondary" animated now={85} />
                 </div>
               </div>
             </div>
@@ -36,7 +37,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-html5 text-warning  fa-4x" />
+                    <i class="fab fa-html5 icon-color fa-4x" />
                   </div>
                   <div className="ml-3">
                     {" "}
@@ -46,7 +47,7 @@ export default function Skills() {
 
                 <div className="col-8 my-auto">
                   {" "}
-                  <ProgressBar variant="info" animated now={95} />
+                  <ProgressBar variant="secondary" animated now={95} />
                 </div>
               </div>
             </div>
@@ -54,7 +55,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-js-square text-warning  fa-4x" />
+                    <i class="fab fa-js-square icon-color  fa-4x" />
                   </div>
                   <div className="ml-2">
                     {" "}
@@ -64,7 +65,7 @@ export default function Skills() {
 
                 <div className="col-8 my-auto">
                   {" "}
-                  <ProgressBar variant="info" animated now={75} />
+                  <ProgressBar variant="secondary" animated now={75} />
                 </div>
               </div>
             </div>
@@ -72,7 +73,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-css3-alt text-warning  fa-4x" />
+                    <i class="fab fa-css3-alt icon-color fa-4x" />
                   </div>
                   <div className="ml-4">
                     {" "}
@@ -82,7 +83,7 @@ export default function Skills() {
 
                 <div className="col-8 my-auto">
                   {" "}
-                  <ProgressBar variant="info" animated now={90} />
+                  <ProgressBar variant="secondary" animated now={90} />
                 </div>
               </div>
             </div>
@@ -90,7 +91,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-bootstrap text-warning fa-4x" />
+                    <i class="fab fa-bootstrap icon-color fa-4x" />
                   </div>
                   <div className="ml-2">
                     {" "}
@@ -100,7 +101,25 @@ export default function Skills() {
 
                 <div className="col-8 my-auto">
                   {" "}
-                  <ProgressBar variant="info" animated now={95} />
+                  <ProgressBar variant="secondary" animated now={95} />
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto">
+              <div className="row icon-row">
+                <div className="col-4">
+                  <div className=" icon-wrapper ">
+                    <img src={pic2} alt="hami" />
+                  </div>
+                  <div className="ml-2">
+                    {" "}
+                    <small>JQuery</small>
+                  </div>
+                </div>
+
+                <div className="col-8 my-auto">
+                  {" "}
+                  <ProgressBar variant="secondary" animated now={95} />
                 </div>
               </div>
             </div>
@@ -109,8 +128,6 @@ export default function Skills() {
           {/* <img src={pic2} alt="hami" /> */}
         </div>
       </section>
-
-      <h2 className="text-center">Site under construction</h2>
     </div>
   );
 }
