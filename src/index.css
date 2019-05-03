@@ -49,20 +49,26 @@ a {
 .logo {
   width: auto;
   position: absolute;
-  right: 0;
 
-  max-height: 50px;
+  max-height: 80px;
+
+  top: 20px;
+  right: 0;
 }
 .icon-color {
   color: tomato;
 }
+
 .logo-wrapper {
-  width: 60%;
+  width: 30%;
   position: absolute;
   margin: 0;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   top: 0;
-  padding: 15px;
-  right: -60px;
+  padding: 5px;
+  right: 0;
 }
 
 a:hover {
