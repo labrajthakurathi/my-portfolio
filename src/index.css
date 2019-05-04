@@ -1,6 +1,6 @@
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 body {
   margin: 0;
@@ -75,8 +75,9 @@ a:hover {
   color: tomato;
 }
 h2 {
-  font-family: medium-marketing-display-font, Georgia, Cambria,
-    "Times New Roman", Times, serif !important;
+  font-family: "Courier New", Courier, monospace;
+  /* font-family: medium-marketing-display-font, Georgia, Cambria,
+    "Times New Roman", Times, serif !important; */
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 25px !important;
@@ -129,7 +130,7 @@ h2 {
   z-index: 1;
 
   transform-origin: 4px 0px;
-  background-color: #ffc107 !important;
+  /* background-color: #ffc107 !important; */
   box-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px yellow;
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
@@ -197,6 +198,7 @@ h2 {
   padding: 4px !important;
   margin-bottom: -10px;
   margin-left: 15px !important;
+  background-color: tomato;
 }
 
 .items:hover {
@@ -361,8 +363,7 @@ button {
     transform: scale(1, 1);
   }
   h2 {
-    font-family: medium-marketing-display-font, Georgia, Cambria,
-      "Times New Roman", Times, serif !important;
+    font-family: "Courier New", Courier, monospace;
     font-style: normal !important;
     font-weight: 400 !important;
     font-size: 28px !important;

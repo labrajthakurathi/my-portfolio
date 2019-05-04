@@ -7,6 +7,7 @@ import Projects from "./components/projects/projects";
 import About from "./components/about/about.js";
 import { Helmet } from "react-helmet";
 import { ParallaxProvider } from "react-scroll-parallax";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class App extends Component {
   render() {
@@ -25,7 +26,10 @@ class App extends Component {
           <About />
 
           <Skills />
-          <Projects />
+          <ScrollableAnchor id={"projects"}>
+            <Projects />
+          </ScrollableAnchor>
+
           <Contact />
           <h2 className="text-center">Site Under construction</h2>
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Header() {
   const [display, setDisplay] = useState(false);
@@ -29,7 +30,7 @@ export default function Header() {
           >
             <a href="#new">
               <div className="items">
-                <div className="text-center text-dark mx-auto bg-warning  icon-1">
+                <div className="text-center text-dark mx-auto   icon-1">
                   <i className="fas fa-poll-h " />
                 </div>
 
@@ -39,23 +40,25 @@ export default function Header() {
               </div>
             </a>
             <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
+              <div className="text-center text-dark mx-auto  icon-1">
                 <i className="fas fa-briefcase" />
               </div>
-              <a href="#projects">
+
+              <AnchorLink href="#projects">
                 <li>Projects</li>
-              </a>
+              </AnchorLink>
             </div>
             <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
+              <div className="text-center text-dark mx-auto   icon-1">
                 <i className="far fa-lightbulb" />
               </div>
-              <a href="#skills">
+
+              <AnchorLink href="#skills">
                 <li className="ml-2">Skills</li>
-              </a>
+              </AnchorLink>
             </div>
             <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
+              <div className="text-center text-dark mx-auto   icon-1">
                 <i className="fas fa-phone-square" />
               </div>
               <a href="#">
@@ -64,7 +67,7 @@ export default function Header() {
             </div>
 
             <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
+              <div className="text-center text-dark mx-auto icon-1">
                 <i className="fab fa-linkedin" />
               </div>
               <a
@@ -75,7 +78,7 @@ export default function Header() {
               </a>
             </div>
             <div className="items">
-              <div className="text-center text-dark mx-auto bg-warning  icon-1">
+              <div className="text-center text-dark mx-auto  icon-1">
                 <i className="fab fa-github" />
               </div>
               <a href="https://github.com/" target="_blank">
