@@ -61,9 +61,9 @@ export default function Header() {
               <div className="text-center text-dark mx-auto   icon-1">
                 <i className="fas fa-phone-square" />
               </div>
-              <a href="#">
+              <AnchorLink href="#contact">
                 <li>Contact</li>
-              </a>
+              </AnchorLink>
             </div>
 
             <div className="items">
@@ -71,7 +71,7 @@ export default function Header() {
                 <i className="fab fa-linkedin" />
               </div>
               <a
-                href="https://www.linkedin.com/in/lab-raj-thakurathi-845679167/"
+                href="https://www.linkedin.com/in/lab-raj-thakurathi-845679167"
                 target="_blank"
               >
                 <li>LinkedIn</li>
@@ -81,7 +81,7 @@ export default function Header() {
               <div className="text-center text-dark mx-auto  icon-1">
                 <i className="fab fa-github" />
               </div>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/lalitthakurathi" target="_blank">
                 <li>GitHub</li>
               </a>
             </div>

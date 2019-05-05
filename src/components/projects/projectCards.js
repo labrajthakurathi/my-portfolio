@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
           target="bling"
           className="btn btn-info py-2 px-5 btn-margin"
         >
-          Visit Website <i class="far fa-arrow-alt-circle-right " />
+          Visit Website <i className="far fa-arrow-alt-circle-right " />
         </a>
       </div>
     </div>

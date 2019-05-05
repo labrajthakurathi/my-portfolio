@@ -17,7 +17,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-react icon-color  fa-4x" />
+                    <i className="fab fa-react icon-color  fa-4x" />
                   </div>
 
                   <div className="ml-3">
@@ -37,7 +37,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-html5 icon-color fa-4x" />
+                    <i className="fab fa-html5 icon-color fa-4x" />
                   </div>
                   <div className="ml-3">
                     {" "}
@@ -55,7 +55,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-js-square icon-color  fa-4x" />
+                    <i className="fab fa-js-square icon-color  fa-4x" />
                   </div>
                   <div className="ml-2">
                     {" "}
@@ -73,7 +73,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-css3-alt icon-color fa-4x" />
+                    <i className="fab fa-css3-alt icon-color fa-4x" />
                   </div>
                   <div className="ml-4">
                     {" "}
@@ -91,7 +91,7 @@ export default function Skills() {
               <div className="row icon-row">
                 <div className="col-4">
                   <div className=" icon-wrapper ">
-                    <i class="fab fa-bootstrap icon-color fa-4x" />
+                    <i className="fab fa-bootstrap icon-color fa-4x" />
                   </div>
                   <div className="ml-2">
                     {" "}

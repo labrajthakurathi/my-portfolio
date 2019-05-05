@@ -13,6 +13,16 @@ body {
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
+input,
+textarea {
+  background: transparent !important;
+  border-bottom: 4px solid white !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+.form-group {
+  padding: 10px 8% 10px 8%;
+}
 
 a {
   text-decoration: none;
@@ -44,6 +54,11 @@ a {
   background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   border: 1px solid;
+}
+.contact-sec {
+  height: auto;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
 .logo {
@@ -96,7 +111,7 @@ h2 {
 
   -webkit-user-select: none;
   user-select: none;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 13px;
   border-radius: 50%;
 }
@@ -124,14 +139,14 @@ h2 {
   margin-bottom: 5px;
   position: relative;
 
-  background: tomato;
+  background: #fefefe;
   border-radius: 3px;
 
   z-index: 1;
 
   transform-origin: 4px 0px;
   /* background-color: #ffc107 !important; */
-  box-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px yellow;
+  box-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px yellow;
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
     background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -198,7 +213,8 @@ h2 {
   padding: 4px !important;
   margin-bottom: -10px;
   margin-left: 15px !important;
-  background-color: tomato;
+  background-color: #fefefe;
+  box-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px yellow;
 }
 
 .items:hover {
@@ -281,7 +297,7 @@ button {
 }
 .border1 {
   border: 3px solid;
-  color: tomato;
+  color: #fefefe;
   border-radius: 10px;
 }
 .btn-margin {
@@ -291,7 +307,8 @@ button {
   border: none !important;
   /* background-color: #7cffcb;
   background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%); */
-  background: tomato;
+  background: #fefefe;
+  color: black;
   text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px yellow;
 }
 .card-text {
