@@ -18,7 +18,12 @@ export default function Contact() {
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="firstname">First Name</label>
-                    <input type="text" name="fname" className="form-control" />
+                    <input
+                      type="text"
+                      name="firstn"
+                      placeholder="*"
+                      className="form-control"
+                    />
                   </div>
                 </Fade>
                 <Fade bottom>
@@ -26,7 +31,7 @@ export default function Contact() {
                     <label htmlFor="lastname">Last Name</label>
                     <input
                       type="text"
-                      name=" lname "
+                      name=" lastn "
                       placeholder="*"
                       className="form-control"
                     />
