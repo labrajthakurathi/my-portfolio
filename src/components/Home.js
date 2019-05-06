@@ -5,7 +5,6 @@ import Skills from "./skills/skills";
 import Projects from "./projects/projects";
 import About from "./about/about.js";
 import Contact from "./contact/Contact";
-import ScrollableAnchor from "react-scrollable-anchor";
 
 export default function Home() {
   return (
@@ -14,9 +13,8 @@ export default function Home() {
       <About />
 
       <Skills />
-      <ScrollableAnchor id={"projects"}>
-        <Projects />
-      </ScrollableAnchor>
+
+      <Projects />
 
       <Contact />
     </div>
