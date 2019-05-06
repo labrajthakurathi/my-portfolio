@@ -11,6 +11,7 @@ export default function Contact() {
 
       <section>
         <form
+          name="contact"
           action=""
           className="form-group "
           method="POST"
