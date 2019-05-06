@@ -10,7 +10,28 @@ export default function Contact() {
       </div>
 
       <section>
-        <form
+        <form method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>
+              Your Name: <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email: <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Message: <textarea name="message" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+        {/* <form
           name="contact"
           action=""
           className="form-group "
@@ -90,6 +111,7 @@ export default function Contact() {
                     className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
                     href="#projects"
                     type="submit"
+                    value="Send"
                   >
                     Submit
                   </button>
@@ -97,7 +119,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-        </form>
+        </form> */}
       </section>
     </div>
   );
