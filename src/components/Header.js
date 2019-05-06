@@ -33,10 +33,11 @@ export default function Header() {
                 <div className="text-center text-dark mx-auto   icon-1">
                   <i className="fas fa-poll-h " />
                 </div>
-
-                <li>
-                  <b>Resume</b>
-                </li>
+                <AnchorLink href="./">
+                  <li>
+                    <b>Home</b>
+                  </li>
+                </AnchorLink>
               </div>
             </a>
             <div className="items">
