@@ -10,15 +10,20 @@ export default function Contact() {
       </div>
 
       <section>
-        <form action="" className="form-group ">
+        <form
+          action=""
+          className="form-group "
+          method="POST"
+          data-netlify="true"
+        >
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <Fade bottom>
                 <div className="my-4">
-                  <label htmlFor="fName">First Name</label>
+                  <label htmlFor="first_name">First Name</label>
                   <input
                     type="text"
-                    name="fName "
+                    name="first_name "
                     id="fName"
                     placeholder="*"
                     className="form-control border-top-0 border-left-0 border-right-0"
@@ -27,10 +32,10 @@ export default function Contact() {
               </Fade>
               <Fade bottom>
                 <div className="my-4">
-                  <label htmlFor="lName">Last Name</label>
+                  <label htmlFor="last_name">Last Name</label>
                   <input
                     type="text"
-                    name="lName "
+                    name="last_name "
                     id="lName"
                     placeholder="*"
                     className="form-control border-top-0 border-left-0 border-right-0"
@@ -66,13 +71,14 @@ export default function Contact() {
               </Fade>
               <Fade bottom>
                 <div className="my-4">
-                  <label htmlFor="text">Your Messege</label>
+                  <label htmlFor="messege">Your Messege</label>
                   <textarea
                     type="text-area"
                     rows="5"
                     cols="50"
                     placeholder="*"
                     className="form-control"
+                    name="messege"
                   />
                 </div>
               </Fade>
@@ -82,6 +88,7 @@ export default function Contact() {
                   <button
                     className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
                     href="#projects"
+                    type="submit"
                   >
                     Submit
                   </button>

@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
 
       <div className="border1 p-0 m-0">
         <div className="card-body p-0 m-0">
-          <img src={pro1} alt="whats up" className="img-fluid" />
+          <img src={props.img} alt="whats up" className="img-fluid" />
         </div>
       </div>
       <div className="d-flex justify-content-center  ">
