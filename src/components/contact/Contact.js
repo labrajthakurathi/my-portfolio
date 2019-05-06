@@ -17,41 +17,64 @@ export default function Contact() {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
                   <div className="my-4">
-                    <label htmlFor="firstname">Name</label>
-                    <input type="text" name="name" />
+                    <label htmlFor="firstname">First Name</label>
+                    <input type="text" name="fname" className="form-control" />
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="my-4">
+                    <label htmlFor="lastname">Last Name</label>
+                    <input
+                      type="text"
+                      name=" lname "
+                      placeholder="*"
+                      className="form-control"
+                    />
                   </div>
                 </Fade>
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" />
+                    <input type="email" name="email" className="form-control" />
                   </div>
                 </Fade>
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                  <Fade bottom>
-                    <div className="my-4">
-                      <label htmlFor="message">Your Messege</label>
-                      <textarea
-                        type="text-area"
-                        rows="5"
-                        cols="50"
-                        placeholder="*"
-                        className="form-control"
-                        name="message"
-                      />
-                    </div>
-                  </Fade>
-
-                  <div className="d-flex justify-content-end">
-                    <Fade bottom>
-                      <button
-                        className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
-                        type="submit"
-                      >
-                        Submit
-                      </button>
-                    </Fade>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <Fade bottom>
+                  <div className="my-4">
+                    {" "}
+                    <label htmlFor="phone">Phone</label>
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="*"
+                      className="form-control "
+                    />
                   </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="my-4">
+                    <label htmlFor="message">Your Messege</label>
+                    <textarea
+                      type="text-area"
+                      rows="5"
+                      cols="50"
+                      placeholder="*"
+                      className="form-control"
+                      name="message"
+                    />
+                  </div>
+                </Fade>
+
+                <div className="d-flex justify-content-end">
+                  <Fade bottom>
+                    <button
+                      className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </Fade>
                 </div>
               </div>
             </div>
