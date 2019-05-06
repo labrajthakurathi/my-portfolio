@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 export default function Contact() {
   return (
     <div>
-      <div className="contact-sec text-light p-3" id="contact">
+      <div className="contact-sec text-light p-4" id="contact">
         <div className="text-center">
           {" "}
           <b>Contact</b>
@@ -17,34 +17,27 @@ export default function Contact() {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
                   <div className="my-4">
-                    <label htmlFor="firstname">First Name</label>
+                    <label htmlFor="firstname">Name</label>
                     <input
                       type="text"
                       name="firstn"
                       placeholder="*"
-                      className="form-control"
+                      className="form-control borderless"
                     />
                   </div>
                 </Fade>
-                <Fade bottom>
-                  <div className="my-4">
-                    <label htmlFor="lastname">Last Name</label>
-                    <input
-                      type="text"
-                      name=" lastn "
-                      placeholder="*"
-                      className="form-control"
-                    />
-                  </div>
-                </Fade>
+
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" className="form-control" />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="*"
+                      className="form-control borderless"
+                    />
                   </div>
                 </Fade>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
                   <div className="my-4">
                     {" "}
@@ -52,17 +45,19 @@ export default function Contact() {
                     <input
                       type="tel"
                       name="phone"
-                      placeholder="*"
-                      className="form-control "
+                      placeholder="Optional"
+                      className="form-control borderless"
                     />
                   </div>
                 </Fade>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="message">Your Messege</label>
                     <textarea
                       type="text-area"
-                      rows="5"
+                      rows="6"
                       cols="50"
                       placeholder="*"
                       className="form-control"
@@ -74,7 +69,7 @@ export default function Contact() {
                 <div className="d-flex justify-content-end">
                   <Fade bottom>
                     <button
-                      className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
+                      className="btn btn-info btn-margin py-2 mt-2 px-5 d-flex justify-content-end align-items-end"
                       type="submit"
                     >
                       Submit
@@ -84,7 +79,7 @@ export default function Contact() {
               </div>
             </div>
           </form>
-          ,
+
           {/* <form method="post">
             <input type="hidden" name="form-name" value="contact" />
             <div className="row">

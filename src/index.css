@@ -315,6 +315,11 @@ button {
 .card-text {
   margin-bottom: -25px;
 }
+.borderless {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
 
 @media only screen and (min-width: 680px) {
   #menuToggle span {
