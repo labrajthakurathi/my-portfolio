@@ -18,23 +18,13 @@ export default function Contact() {
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="firstname">Name</label>
-                    <input
-                      type="text"
-                      name="name "
-                      placeholder="*"
-                      className="form-control "
-                    />
+                    <input type="text" name="name" />
                   </div>
                 </Fade>
                 <Fade bottom>
                   <div className="my-4">
                     <label htmlFor="email">Email</label>
-                    <input
-                      type="email"
-                      name="email "
-                      placeholder="*"
-                      className="form-control "
-                    />
+                    <input type="email" name="email" />
                   </div>
                 </Fade>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
