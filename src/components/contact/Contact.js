@@ -13,6 +13,28 @@ export default function Contact() {
         <section>
           <form method="post">
             <input type="hidden" name="form-name" value="contact" />
+            <p>
+              <label>
+                Your Name: <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Your Email: <input type="email" name="email" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Message: <textarea name="message" />
+              </label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          ,
+          {/* <form method="post">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
@@ -92,7 +114,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-          </form>
+          </form> */}
           {/* <form
           name="contact"
           action=""
