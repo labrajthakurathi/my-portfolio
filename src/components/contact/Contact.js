@@ -13,24 +13,58 @@ export default function Contact() {
         <section>
           <form method="post">
             <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>
-                Your Name: <input type="text" name="name" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Your Email: <input type="email" name="email" />
-              </label>
-            </p>
-            <p>
-              <label>
-                Message: <textarea name="message" />
-              </label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <Fade bottom>
+                  <div className="my-4">
+                    <label htmlFor="firstname">Name</label>
+                    <input
+                      type="text"
+                      name="name "
+                      placeholder="*"
+                      className="form-control border-top-0 border-left-0 border-right-0 "
+                    />
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="my-4">
+                    <label htmlFor="email">Email</label>
+                    <input
+                      type="email"
+                      name="email "
+                      placeholder="*"
+                      className="form-control border-top-0 border-left-0 border-right-0"
+                    />
+                  </div>
+                </Fade>
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <Fade bottom>
+                    <div className="my-4">
+                      <label htmlFor="message">Your Messege</label>
+                      <textarea
+                        type="text-area"
+                        rows="5"
+                        cols="50"
+                        placeholder="*"
+                        className="form-control"
+                        name="message"
+                      />
+                    </div>
+                  </Fade>
+
+                  <div className="d-flex justify-content-end">
+                    <Fade bottom>
+                      <button
+                        className="btn btn-info btn-margin py-2 px-5 d-flex justify-content-end align-items-end"
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </Fade>
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
           ,
           {/* <form method="post">
