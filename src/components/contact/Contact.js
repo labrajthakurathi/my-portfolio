@@ -22,7 +22,7 @@ export default function Contact() {
                       type="text"
                       name="name "
                       placeholder="*"
-                      className="form-control border-top-0 border-left-0 border-right-0 "
+                      className="form-control "
                     />
                   </div>
                 </Fade>
@@ -33,7 +33,7 @@ export default function Contact() {
                       type="email"
                       name="email "
                       placeholder="*"
-                      className="form-control border-top-0 border-left-0 border-right-0"
+                      className="form-control "
                     />
                   </div>
                 </Fade>
