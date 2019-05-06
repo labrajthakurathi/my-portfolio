@@ -17,11 +17,11 @@ export default function Contact() {
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <Fade bottom>
                   <div className="my-4">
-                    <label htmlFor="firsName">First Name</label>
+                    <label htmlFor="firstname">First Name</label>
                     <input
                       type="text"
-                      name="firstName "
-                      id="fName"
+                      name="firstname "
+                      id="firstname"
                       placeholder="*"
                       className="form-control border-top-0 border-left-0 border-right-0 "
                     />
@@ -29,11 +29,11 @@ export default function Contact() {
                 </Fade>
                 <Fade bottom>
                   <div className="my-4">
-                    <label htmlFor="lastName">Last Name</label>
+                    <label htmlFor="lastname">Last Name</label>
                     <input
                       type="text"
-                      name=" lastName "
-                      id="lName"
+                      name=" lastname "
+                      id="lastname"
                       placeholder="*"
                       className="form-control border-top-0 border-left-0 border-right-0"
                     />
@@ -43,7 +43,7 @@ export default function Contact() {
                   <div className="my-4">
                     <label htmlFor="email">Email</label>
                     <input
-                      type="Email"
+                      type="email"
                       name="email "
                       id="email"
                       placeholder="*"
@@ -58,7 +58,7 @@ export default function Contact() {
                     {" "}
                     <label htmlFor="phone">Phone</label>
                     <input
-                      type=""
+                      type="tel"
                       name="phone"
                       id="phone"
                       placeholder="*"
