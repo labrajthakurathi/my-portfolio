@@ -6,8 +6,8 @@ import { ProgressBar } from "react-bootstrap";
 export default function Skills() {
   return (
     <div className="">
-      <section className="text-light  container-fluid p-0" id="skills">
-        <div className="skills-overlay py-3 ">
+      <section className="text-light  container-fluid p-0 " id="skills">
+        <div className="skills-overlay pt-4 pb-5 ">
           <div className="text-center">
             <b>Skills</b>
           </div>

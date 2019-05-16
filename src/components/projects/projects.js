@@ -8,7 +8,7 @@ import { ProgressBar } from "react-bootstrap";
 
 export default function Projects(props) {
   return (
-    <div className="hi  container-fluid " id="projects">
+    <div className="hi  container-fluid  py-4" id="projects">
       <div className="text-center text-light p-2">
         {" "}
         <b>PROJECTS</b>

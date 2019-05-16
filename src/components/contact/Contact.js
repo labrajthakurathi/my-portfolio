@@ -4,8 +4,8 @@ import Fade from "react-reveal/Fade";
 export default function Contact() {
   return (
     <div>
-      <div className="contact-sec text-light p-4" id="contact">
-        <div className="text-center">
+      <div className="contact-sec text-light p-4 pb-5" id="contact">
+        <div className="text-center mb-4">
           {" "}
           <b>Contact</b>
         </div>

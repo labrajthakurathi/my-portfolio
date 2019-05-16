@@ -3,7 +3,7 @@ import pro1 from "./project1.png";
 
 export default function ProjectCard(props) {
   return (
-    <div className="m-1 container-fluid">
+    <div className="m-2 container-fluid">
       <div className="text-center text-light card-text">
         <small>{props.name}</small>
       </div>

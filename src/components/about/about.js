@@ -6,18 +6,18 @@ import pic3 from "./lalit.png";
 export default function About() {
   return (
     <div className="">
-      <section className="about border container-fluid">
-        <div className="text-center text-light p-3 mx-auto">
+      <section className="about border  container-fluid">
+        <div className="text-center text-light pt-3 pb-2 mx-auto">
           {" "}
           <b>About Me</b>
         </div>
-        <div className="row about-overlay px-3 pb-2">
-          <div className="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-xl-5 mt-0 my-auto">
+        <div className="row about-overlay px-3 p-4">
+          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-5 mt-0 my-auto">
             <img src={pic3} alt="" className="img-fluid align-pic" />
           </div>
 
           <Fade bottom>
-            <div className="col-xs-12 col-sm-7 col-md-8 col-lg-8 col-xl-7 mt-2 text-light my-auto about-padding text-center">
+            <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-7 mt-2 text-light my-auto about-padding text-center">
               <h5>
                 {" "}
                 Hi I am Lab Raj Thakurathi a Front-End-Developer based on San
