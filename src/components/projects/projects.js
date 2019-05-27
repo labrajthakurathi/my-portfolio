@@ -29,7 +29,7 @@ export default function Projects(props) {
             <ProjectCard
               img={Chilli}
               name="Redchilli food truck"
-              link="https://redpepperxpress.com/"
+              link="https://vigilant-agnesi-c9425f.netlify.com/"
             />
           </div>
         </Fade>
