@@ -21,6 +21,9 @@ textarea {
   box-shadow: none !important;
   color: white !important;
 }
+::placeholder {
+  color: orangered !important;
+}
 .form-group {
   padding: 10px 8% 10px 8%;
 }
