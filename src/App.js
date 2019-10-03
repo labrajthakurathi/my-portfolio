@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Modal from "./components/Modal";
+import Thanks from "./components/Thanks";
 import Resume from "./components/Resume";
 
 import { Helmet } from "react-helmet";
@@ -29,7 +29,7 @@ class App extends Component {
               <Header />
               <Switch>
                 <Route exact path={"/"} component={Home} />
-                <Route exact path={"/Modal"} component={Modal} />
+                <Route exact path={"/thanks"} component={Thanks} />
                 <Route exact path={"/resume"} component={Resume} />
               </Switch>
             </div>
