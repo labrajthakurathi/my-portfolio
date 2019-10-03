@@ -22,12 +22,6 @@ class Contact extends React.Component {
       errors["name"] = "Cannot be empty";
     }
 
-    if (typeof fields["name"] !== "undefined") {
-      if (!fields["name"].match(/^[a-zA-Z]+$/)) {
-        formIsValid = false;
-        errors["name"] = "Only letters";
-      }
-    }
     //messege
     if (!fields["messege"]) {
       formIsValid = false;
@@ -85,7 +79,7 @@ class Contact extends React.Component {
 
           <section>
             <form
-              action="/"
+              action="/modal/"
               method="post"
               onSubmit={this.contactSubmit.bind(this)}
             >

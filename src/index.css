@@ -324,6 +324,43 @@ button {
   border-right: none;
 }
 
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 10%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.modal-body {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 25px;
+}
+.modal-content {
+  padding: 50px 15px 50px 15px;
+  background-color: black;
+  color: white;
+}
+.modal-footer {
+  overflow: hidden;
+}
+.nmodal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  background-color: #232323;
+}
+.fa-arrow-left {
+  margin-right: 10px;
+  margin-top: 6px;
+}
+
 @media only screen and (min-width: 680px) {
   #menuToggle span {
     all: unset !important;
@@ -420,5 +457,8 @@ button {
   .about-padding h5 {
     line-height: 1.7em !important;
     font-size: 1.2rem !important;
+  }
+  .modal {
+    padding: 20%;
   }
 }
