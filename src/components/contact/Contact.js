@@ -63,12 +63,9 @@ class Contact extends React.Component {
   }
 
   contactSubmit(e) {
-    e.preventDefault();
-
     if (this.handleValidation()) {
-      console.log("Form submitted");
     } else {
-      console.log("Form has errors.");
+      e.preventDefault();
     }
   }
 
