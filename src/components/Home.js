@@ -1,6 +1,7 @@
 import React from "react";
 import Landing from "./Landing";
 import Skills from "./skills/skills";
+import Footer from "./footer.js";
 
 import Projects from "./projects/projects";
 import About from "./about/about.js";
@@ -17,6 +18,7 @@ export default function Home() {
       <Projects />
 
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -79,9 +79,10 @@ class Contact extends React.Component {
 
           <section>
             <form
-              action="/modal/"
+              action="./Modal"
               method="post"
               onSubmit={this.contactSubmit.bind(this)}
+              data-netlify-recaptcha="true"
             >
               <input type="hidden" name="form-name" value="contact" />
               <div className="row">
@@ -163,7 +164,6 @@ class Contact extends React.Component {
             </form>
           </section>
         </div>
-        <h1 className="text-center">Site Under Construction</h1>
       </div>
     );
   }

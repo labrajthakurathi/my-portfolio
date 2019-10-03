@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Modal from "./components/Modal";
+import Resume from "./components/Resume";
 
 import { Helmet } from "react-helmet";
 import { ParallaxProvider } from "react-scroll-parallax";
@@ -28,7 +29,8 @@ class App extends Component {
               <Header />
               <Switch>
                 <Route exact path={"/"} component={Home} />
-                <Route exact path={"/modal"} component={Modal} />
+                <Route exact path={"/Modal"} component={Modal} />
+                <Route exact path={"/resume"} component={Resume} />
               </Switch>
             </div>
           </Router>
