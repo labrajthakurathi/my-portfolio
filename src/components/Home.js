@@ -5,7 +5,7 @@ import Footer from "./footer.js";
 
 import Projects from "./projects/projects";
 import About from "./about/about.js";
-import Contact from "./contact/Contact";
+import Contact from "./Contact.js";
 
 export default function Home() {
   return (
