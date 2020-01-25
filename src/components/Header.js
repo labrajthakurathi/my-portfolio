@@ -28,17 +28,6 @@ export default function Header() {
             onClick={hideMenu}
             style={display ? onClickDisplay : initialDisplay}
           >
-            {/* <div className="items">
-              <div className="text-center text-dark mx-auto   icon-1">
-                <i className="fas fa-poll-h " />
-              </div>
-              <AnchorLink href="./">
-                <li>
-                  <b>Home</b>
-                </li>
-              </AnchorLink>
-            </div> */}
-
             <div className="items">
               <div className="text-center text-dark mx-auto  icon-1">
                 <i className="fas fa-briefcase" />

@@ -20,7 +20,7 @@ export default function About() {
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-7 mt-2 text-light my-auto about-padding text-center">
               <h5>
                 {" "}
-                Hi I am Lab Raj Thakurathi a Front-End-Developer based on San
+                Hi, I am Lab Raj Thakurathi a Front-End-Developer based on San
                 Francisco Bay Area. Focused on developing pixel perfect
                 responsive UI's. I believe in power of Visual representation,
                 hence been working as a front-end-developer for over 2 years.
