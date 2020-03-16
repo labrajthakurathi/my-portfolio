@@ -1,23 +1,22 @@
 import React from "react";
-import { Button } from "react-bootstrap";
 
 export default function Resume() {
   return (
     <div className="nmodal">
       <label for="o"></label>
-      <input class="checker" type="checkbox" id="o" hidden />
-      <div class="modal">
-        <div class="modal-body">
-          <div class="modal-content">
+      <input className="checker" type="checkbox" id="o" hidden />
+      <div className="modal">
+        <div className="modal-body">
+          <div className="modal-content">
             Oops just under construction, visit back soon !{" "}
           </div>
-          <div class="modal-footer">
+          <div className="modal-footer">
             <a
               href="/"
               className="btn btn-info py-2 my-3 px-5 btn-margin"
               for="o"
             >
-              <i class="fas fa-arrow-left"></i>
+              <i className="fas fa-arrow-left"></i>
               Okay
             </a>
           </div>

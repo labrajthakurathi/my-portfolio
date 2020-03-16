@@ -1,5 +1,4 @@
 import React from "react";
-import pro1 from "./project1.png";
 
 export default function ProjectCard(props) {
   return (

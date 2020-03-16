@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center d-flex justify-content-around icon-f ">
             <a href="/resume" title="Resume">
               {" "}
-              <i class="fas fa-file-alt p-3 icon-s "></i>
+              <i className="fas fa-file-alt p-3 icon-s "></i>
             </a>
             <a
               href="https://github.com/lalitthakurathi"
@@ -17,7 +17,7 @@ export default function Footer() {
               target="blink"
             >
               {" "}
-              <i class="fab fa-github p-3  icon-s"></i>
+              <i className="fab fa-github p-3  icon-s"></i>
             </a>
 
             <a
@@ -25,14 +25,14 @@ export default function Footer() {
               title="LinkedIn"
               target="blink"
             >
-              <i class="fab fa-linkedin-in p-3 icon-s"></i>
+              <i className="fab fa-linkedin-in p-3 icon-s"></i>
             </a>
             <a
               href="https://twitter.com/ThakurathiLalit"
               title="Twitter"
               target="blink"
             >
-              <i class="fab fa-twitter p-3  icon-s"></i>
+              <i className="fab fa-twitter p-3  icon-s"></i>
             </a>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center pt-3">
