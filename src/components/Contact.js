@@ -84,8 +84,9 @@ class Contact extends React.Component {
               onSubmit={this.contactSubmit.bind(this)}
               data-netlify-recaptcha="true"
               netlify-honeypot="bot-field"
+              data-netlify="true"
             >
-              <p style="visibility: hidden">
+              <p style={{ visibility: "hidden" }}>
                 <label>Don't Fill This Out If You're Human:"</label>
                 <input name="bot-field" />
               </p>
@@ -153,7 +154,7 @@ class Contact extends React.Component {
                       />
                     </div>
                   </Fade>
-
+                  <div data-netlify-recaptcha></div>
                   <div className="d-flex justify-content-end">
                     <Fade bottom>
                       <button
@@ -164,7 +165,6 @@ class Contact extends React.Component {
                       </button>
                     </Fade>
                   </div>
-                  <div data-netlify-recaptcha="true"></div>
                 </div>
               </div>
             </form>
