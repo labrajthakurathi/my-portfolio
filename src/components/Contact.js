@@ -79,11 +79,16 @@ class Contact extends React.Component {
 
           <section>
             <form
-              action="/thanks"
+              action="/thanks/"
               method="POST"
               onSubmit={this.contactSubmit.bind(this)}
               data-netlify-recaptcha="true"
+              netlify-honeypot="bot-field"
             >
+              <p style="visibility: hidden">
+                <label>Don't Fill This Out If You're Human:"</label>
+                <input name="bot-field" />
+              </p>
               <input type="hidden" name="form-name" value="contact" />
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
